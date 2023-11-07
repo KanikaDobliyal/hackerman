@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hackerman</title>
+
+    <!-- External Css file -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="box">
+      <h1>Hackerman</h1>
+      <div class="row">
+        <div class="col">
+        <img
+          src="https://media0.giphy.com/media/bJ4TVNYNUympPgcpem/giphy.gif"
+          alt="hacking"
+          style="width: 280px; height: 500px"
+        />
+    </div>
+    <div class="col">
+        <label for="username" id="target">Target Name :</label>
+        <input type="text" name="username" id="username" /> <br />
+        <p id="para">Choose account type :</p>
+        <br />
+        <div class="option">
+          <input
+            type="radio"
+            id="instagram"
+            name="username"
+            value="instagram"
+            style="cursor: pointer"
+          />
+            <label for="instagram">Instagram</label>  
+          <input
+            type="radio"
+            id="facebook"
+            name="username"
+            value="facebook"
+            style="cursor: pointer"
+          />
+            <label for="facebook">Facebook</label>  
+          <input
+            type="radio"
+            id="linkedIn"
+            name="username"
+            value="linkedIn"
+            style="cursor: pointer"
+          />
+            <label for="linkedIn">LinkedIn</label>
+        </div>
+        <input type="submit" id="btn" value="Submit" />
+
+        <p id="content1" class="paraContent"></p>
+        <p id="content2" class="paraContent"></p>
+        <p id="content3" class="paraContent"></p>
+        <p id="content4" class="paraContent"></p>
+        <p
+          id="content5"
+          class="paraContent"
+          style="font-size: 50px; font-weight: bold; text-align: center"
+        ></p>
+    </div>
+    <div class="col">
+        <img
+          src="https://media0.giphy.com/media/bJ4TVNYNUympPgcpem/giphy.gif"
+          alt="hacking"
+          style="width: 280px; height: 500px"
+        />
+    </div>
+      </div>
+    </div>
+
+    <!-- External js file -->
+
+    <script src="index.js"></script>
+  </body>
+</html>

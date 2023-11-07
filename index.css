@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: rgb(138, 211, 29);
+    border: 5px solid rgb(138, 211, 29);
+}
+h1{
+    background-color: rgb(138, 211, 29);
+    text-align: center;
+    color: black;
+    padding: 10px 10px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.row{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: space-evenly;
+}
+#target{
+    font-weight: bold;
+    font-size: 30px;
+}
+input{
+    padding: 5px 5px;
+    background-color: black;
+    border: 2px solid rgb(138, 211, 29);
+    color: rgb(138, 211, 29);
+    font-size: 20px;
+}
+#para{
+    font-size: 30px; 
+    font-weight: bold;
+}
+.option{
+    margin-top: -30px;
+    font-size: 20px;
+}
+#btn{
+    margin-top: 30px;
+    padding: 10px 10px;
+    color: rgb(138, 211, 29);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    border: 2px solid rgb(138, 211, 29);
+    cursor: pointer;
+}
+#btn:hover{
+background-color: rgb(138, 211, 29);
+color: black;
+}
+.paraContent{
+font-size: 20px;
+font-family: serif;
+text-shadow: 1px 1px red;
+}
